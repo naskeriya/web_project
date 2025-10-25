@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Imagiseum — Sign In</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Imagiseum</div>
+    <nav class="nav">
+      <a href="main.html">Create</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about_us.html">About</a>
+      <a href="login.html" class="btn small">Sign In</a>
+      <button id="theme-toggle-4" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </nav>
+    <button class="burger" id="burger4" aria-label="Open navigation">☰</button>
+  </header>
+
+  <div class="mobile-drawer" id="mobileDrawer4">
+    <a href="main.html">Create</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about_us.html">About</a>
+    <a href="login.html">Sign In</a>
+    <button id="mobileThemeToggle4" class="theme-toggle">Toggle Theme</button>
+  </div>
+
+  <main class="auth-main">
+    <section class="auth-cards">
+      <div class="card auth-card">
+        <h2>Sign Up</h2>
+        <form id="signupForm" novalidate>
+          <input name="name" placeholder="Name" required />
+          <input name="email" placeholder="Email" required />
+          <input name="phone" placeholder="Phone" />
+          <input name="password" type="password" placeholder="Password" required />
+          <button class="btn" type="submit">Sign Up</button>
+          <div class="form-error" id="signupError" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div class="card auth-card">
+        <h2>Log In</h2>
+        <form id="loginForm" novalidate>
+          <input name="email" placeholder="Email" required />
+          <input name="password" type="password" placeholder="Password" required />
+          <button class="btn" type="submit">Log In</button>
+          <div class="form-error" id="loginError" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© Imagiseum — Museum of Imaginary Art</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
