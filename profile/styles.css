@@ -1,0 +1,23 @@
+.profile {
+  max-width: 600px;
+  margin: 3rem auto;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 2rem 2rem 2rem 2rem;
+  box-shadow: var(--shadow);
+}
+
+.profile__heading {
+  margin-top: 0;
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile__link {
+  text-decoration: underline;
+  color: var(--accent);
+}

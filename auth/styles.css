@@ -1,0 +1,32 @@
+.auth {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.auth__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.auth__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.auth__input {
+  width: 100%;
+  min-width: 290px;
+}
+
+@media (max-width: 700px) {
+  .auth {
+    grid-template-columns: 1fr;
+  }
+}

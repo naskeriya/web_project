@@ -1,0 +1,28 @@
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.team-grid > div {
+  padding: 5px 0 25px 5px;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+}
+
+.team-grid div h3,
+.team-grid div p {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}

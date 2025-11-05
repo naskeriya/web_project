@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/common.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Imagiseum — Gallery</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1 class="header__logo">🎨Imagiseum</h1>
+      <nav class="header__nav hidden-on-mobile">
+        <a href="../index/index.html">Create</a>
+        <a href="../gallery/index.html">Gallery</a>
+        <a href="../about/index.html">About</a>
+        <a href="../auth/index.html" id="header-sign-in">Sign In</a>
+        <a href="../profile/index.html" id="header-profile" style="display: none;">Profile</a>
+      </nav>
+
+      <button class="button" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+
+      <button class="header__burger button" id="burger" aria-label="Open navigation">☰</button>
+    </header>
+
+    <main class="container gallery">
+      <h1 class="gallery__heading">🎨 Imagiseum Gallery</h1>
+      <div class="gallery__search">
+        <input type="text" class="input" id="search" placeholder="Search prompts..." />
+      </div>
+      <div class="gallery__cards"></div>
+      <div class="gallery__empty"></div>
+    </main>
+
+    <footer class="footer">
+      <p>© Imagiseum — Museum of Imaginary Art</p>
+    </footer>
+  </div>
+  
+  <script src="../assets/js/common.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
