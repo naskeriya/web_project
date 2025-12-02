@@ -68,13 +68,6 @@ Feel free to modify or expand upon these descriptions to better fit your project
    ```
 3. Open the `index.html` file in your web browser.
 
-## Technologies Used
-
-- **HTML**: Structure and content of web pages (36.3%)
-- **CSS**: Styling and layout (30.6%)
-- **JavaScript**: Dynamic interaction and functionality (33.1%)
-
-
 ## Contributing
 
 We welcome contributions! If you would like to contribute to the project, please follow these steps:
